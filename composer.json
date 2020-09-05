@@ -21,6 +21,12 @@
         "nunomaduro/collision": "^3.0",
         "phpunit/phpunit": "^8.0"
     },
+    "repositories":[
+    {
+        "type": "vcs",
+        "url": "git@github.com:barryvanveen/secret.git"
+    }
+    ],
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",

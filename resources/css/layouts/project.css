@@ -1,0 +1,118 @@
+.project-grid-page {
+  background-color: #0d0d0d;
+  margin-top: 56px; }
+  .project-grid-page h1 {
+    line-height: 1;
+    margin-top: 8px;
+    margin-bottom: 22px; }
+  .project-grid-page a {
+    text-decoration: none;
+    color: #b9bbc0;
+    text-transform: none;
+    font-weight: 500;
+    font-size: 23px;
+    margin: 15px 0; }
+  .project-grid-page #grid-country {
+    color: #b9bbc0;
+    text-transform: none;
+    font-weight: 500;
+    font-size: 21px;
+    margin: 15px 0; }
+  .project-grid-page .taxonomy-filters {
+    margin-bottom: 0;
+    text-align: right; }
+    .project-grid-page .taxonomy-filters .content-container-float-right {
+      float: right;
+      position: relative; }
+      .project-grid-page .taxonomy-filters .content-container-float-right .filter {
+        position: relative;
+        height: 34px;
+        line-height: 34px;
+        top: 15px;
+        float: left;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 14px;
+        color: #b9bbc0;
+        margin-right: 14px; }
+      .project-grid-page .taxonomy-filters .content-container-float-right .facet-drop-down-container-vert-align {
+        display: block;
+        float: left;
+        height: 34px;
+        position: relative;
+        top: 15px;
+        padding-right: 8px; }
+        .project-grid-page .taxonomy-filters .content-container-float-right .facet-drop-down-container-vert-align .facetwp-facet {
+          display: inline-block;
+          width: 150px;
+          margin-bottom: 0;
+          position: relative; }
+          .project-grid-page .taxonomy-filters .content-container-float-right .facet-drop-down-container-vert-align .facetwp-facet .facetwp-dropdown {
+            width: 100%;
+            background-color: #272727;
+            color: #b9bbc0;
+            font-size: 13px;
+            font-weight: 600;
+            border: 0;
+            padding: 8px;
+            padding-left: 10px; }
+      .project-grid-page .taxonomy-filters .content-container-float-right .clear-filters {
+        display: none;
+        position: relative;
+        top: 10px;
+        float: left;
+        padding-left: 14px;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #b9bbc0;
+        font-weight: 600;
+        text-align: left;
+        cursor: pointer; }
+  .project-grid-page .taxonomy-grid .row .item-pro {
+    padding: 0;
+    padding-bottom: 6px;
+    padding-left: 3px;
+    padding-right: 3px; }
+    .project-grid-page .taxonomy-grid .row .item-pro .grid-item-bg-div {
+      padding-bottom: 52%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: relative; }
+      .project-grid-page .taxonomy-grid .row .item-pro .grid-item-bg-div .grid-item-content {
+        position: absolute;
+        width: calc(100% - 20px); }
+        .project-grid-page .taxonomy-grid .row .item-pro .grid-item-bg-div .grid-item-content h3 {
+          text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+          color: #fff;
+          font-weight: 400;
+          text-transform: uppercase;
+          margin-bottom: 0;
+          font-size: 22px; }
+        .project-grid-page .taxonomy-grid .row .item-pro .grid-item-bg-div .grid-item-content div {
+          color: #fff;
+          font-size: 15px;
+          font-weight: 500; }
+      .project-grid-page .taxonomy-grid .row .item-pro .grid-item-bg-div .white-bottom-accent {
+        display: none;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        height: 5px;
+        background: #fff; }
+
+@media (min-width: 992px) {
+  .grid-item-content {
+    display: block !important;
+    left: 20px;
+    bottom: 20px; }
+
+  .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%; } }
+@media (min-width: 576px) {
+  .taxonomy-grid .row .item-pro {
+    padding-left: 3px;
+    padding-right: 3px; } }
+
+/*# sourceMappingURL=project.css.map */

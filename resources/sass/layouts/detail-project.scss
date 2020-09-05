@@ -1,0 +1,112 @@
+
+
+.content-thumbnail{
+	position: relative;
+	.thumbnails{
+		background-color: rgba(13,13,13,.9);
+	}
+	.project-title-and-location{
+		width: 100%;
+		position: absolute;
+		left: 20px;
+		bottom: calc(50px + 105px);
+		margin-bottom: 10px;
+		h1{
+			color: #fff;
+			font-weight: 400;
+			letter-spacing: 1px;
+			margin: 0;
+			font-size: 36px;
+			text-shadow: 2px 2px 2px rgba(0,0,0,.9);
+		}
+		.project-location{
+			text-shadow: 2px 2px 2px rgba(0,0,0,.9);
+			font-size: 15px;
+			margin-top: 6px;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			font-weight: 500;
+			color: #fff;
+			margin-bottom: 15px;
+		}
+		#go-back-return{
+			display: block;
+			position: absolute;
+			width: 172px;
+			background-color: rgba(13,13,13,.8);
+			color: #fff;
+			text-transform: uppercase;
+			text-align: center;
+			letter-spacing: 1px;
+			padding: 7px 0;
+			border: 1px solid #000;
+			border-radius: 5px;
+			font-size: 14px;
+			cursor: pointer;
+			a{
+				color: #fff;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.project-content {
+	margin-top: 45px;
+	margin-bottom: 135px;
+	line-height: 1.4;
+	font-size: 15px;
+	.mobile-title-and-location {
+		h1 {
+			font-weight: 500;
+			margin-bottom: 4px;
+			font-size: 30px;
+			color: #111;
+		}
+		.mobile-project-location {
+			color: #111;
+			font-size: 17px;
+		}
+	}
+	a:hover {
+		color: #666;
+		text-decoration: none;
+	}
+	.subtitle {
+		text-transform: uppercase;
+		font-weight: 600;
+		color: #111;
+		.return-link-arrow {
+			font-size: 12px;
+			font-weight: 900;
+			position: relative;
+			top: -2px;
+		}
+	}
+	.project-information{
+		.project-info-table {
+			margin-bottom: 1rem;
+			.label-value-pair-block{
+				display: flex;
+				div:first-child {
+					float: left;
+					width: 120px;
+				}
+				div:nth-child(2) {
+					float: left;
+					width: calc(100% - 120px);
+				}
+			}
+		}
+	}
+	.social-media-share {
+		display: inline-block;
+		a {
+			padding:0 5px;
+			color: #111;
+		}
+		a:hover{
+			border: 1px solid #111;
+		}
+	}
+}

@@ -1,0 +1,11 @@
+.about_page {
+  background-color: #ffff; }
+  .about_page .about-content {
+    font-family: "Proxima Nova",sans-serif; }
+    .about_page .about-content .about-sub-section {
+      margin-bottom: 20px; }
+    .about_page .about-content p {
+      line-height: 1.4;
+      font-size: 15px;
+      font-weight: 500;
+      color: #666; }

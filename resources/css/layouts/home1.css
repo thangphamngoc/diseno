@@ -1,0 +1,100 @@
+.slider-center {
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+  left: 0px;
+  width: 1600px;
+  height: 100vh;
+  overflow: hidden;
+  visibility: hidden; }
+  .slider-center .jssorl-009-spin {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); }
+    .slider-center .jssorl-009-spin img {
+      margin-top: -19px;
+      position: relative;
+      top: 50%;
+      width: 38px;
+      height: 38px;
+      animation-name: jssorl-009-spin;
+      animation-duration: 1.6s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear; }
+  .slider-center .content-slider {
+    cursor: default;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 1600px;
+    height: 560px;
+    overflow: hidden; }
+    .slider-center .content-slider .content-bg {
+      background-color: #d3890e; }
+      .slider-center .content-slider .content-bg img {
+        opacity: 0.8; }
+      .slider-center .content-slider .content-bg .item {
+        left: 150px;
+        top: 40px;
+        width: 800px;
+        height: 300px;
+        position: absolute; }
+      .slider-center .content-slider .content-bg .slide-content {
+        position: absolute;
+        bottom: 120px;
+        width: 100%;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 500;
+        color: #fff;
+        width: 100%;
+        text-align: center; }
+        .slider-center .content-slider .content-bg .slide-content h2 {
+          font-size: 1.8rem; }
+  .slider-center .jssorb132 {
+    position: absolute;
+    bottom: 24px;
+    right: 16px; }
+    .slider-center .jssorb132 .i {
+      position: absolute;
+      cursor: pointer;
+      width: 30px;
+      height: 12px;
+      border: 2px solid white;
+      margin: 0 5px;
+      border-radius: 10px; }
+    .slider-center .jssorb132 .iav {
+      width: 30px;
+      transition: 0.5s;
+      transform: scale(0.999);
+      -webkit-animation: animate 0.4s;
+      animation: animate 0.4s;
+      background-color: #fff; }
+  .slider-center .jssora051 {
+    width: 55px;
+    height: 55px;
+    top: 0px;
+    display: block;
+    position: absolute;
+    cursor: pointer; }
+    .slider-center .jssora051 i {
+      font-size: 50px;
+      color: #8888; }
+  .slider-center .jssora051:hover {
+    opacity: .8; }
+  .slider-center .jssora051-left {
+    left: 25px; }
+  .slider-center .jssora051-right {
+    right: 25px; }
+
+@keyframes jssorl-009-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+/*# sourceMappingURL=home1.css.map */

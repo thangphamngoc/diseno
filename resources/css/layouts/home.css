@@ -1,0 +1,80 @@
+.center {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: auto;
+  width: 100%;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+  overflow: hidden; }
+  .center .images {
+    height: 1480px;
+    width: 500%;
+    display: flex; }
+    .center .images .slide {
+      width: 20%;
+      transition: .6s; }
+      .center .images .slide .thumb {
+        width: 100%;
+        height: 150%;
+        background-color: #3e3e3e;
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain; }
+
+.buttons {
+  position: absolute;
+  bottom: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex; }
+  .buttons a {
+    height: 8px;
+    width: 30px;
+    border: 2px solid white;
+    margin: 0 5px;
+    border-radius: 10px; }
+  .buttons a.active {
+    transition: .5s;
+    transform: scale(0.999);
+    animation: animate .4s;
+    background-color: #fff; }
+
+.hero-static-image {
+  padding-bottom: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 45px; }
+
+@keyframes animate {
+  100% {
+    transform: scale(0.8); } }
+.slick-arrow {
+  position: absolute;
+  top: 45%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 25px;
+  color: #888 !important;
+  z-index: 20; }
+
+.slick-next {
+  right: 7px; }
+
+.slick-prev {
+  left: 7px; }
+
+#home-carousel .slide-content {
+  position: absolute;
+  bottom: 120px;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #fff;
+  width: 100%;
+  text-align: center; }
+
+/*# sourceMappingURL=home.css.map */
